@@ -1,0 +1,41 @@
+#header{
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:75px;
+	background-image:url('../img/pics/header.png');
+	border-bottom:1px solid #ccc;
+}
+
+#link{
+	background-image:url('../img/pics/text.png');
+	background-position:0px 0px;
+	background-repeat:no-repeat;
+	width:605px;
+	margin-top:19px;
+	margin-left:125px;
+	height:37px;
+	font-size:0px;
+}
+
+#link:hover{
+	background-position:0px -35px;
+}
+
+#toolbar{
+	position:absolute;
+	top:75px;
+	bottom:0px;
+	left:0px;
+	width:100px;
+	background-color:#333;
+}
+
+#map{
+	position:absolute;
+	top:75px;
+	bottom:0px;
+	left:100px;
+	right:0px;
+}
