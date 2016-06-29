@@ -26,6 +26,7 @@ var markers = [
 	// "Lat" and "Long" are the two numbers obtained by clicking on the map.
 	// icon is one of the names defined above
 	// popup is the text that will display on screen
+//Stormlands
 [-31.428663117358596,-114.697265625,SL,"Lover's Hill"],
 [-32.76880048488168,-116.27929687499999,SL,"Nightsong"],
 [-29.228890030194215,-107.841796875,SL,"Harvest Hall"],
@@ -52,5 +53,33 @@ var markers = [
 [-11.350796722383672,-76.552734375,SLfort,"Durran's Grief"],
 [-11.95334939364343,-86.923828125,SLfort,"Forrestwatch"],
 [-29.228890030194215,-97.646484375,SL,"Gallowsgrey"]
+//Vale
+[27.21555620902969,-88.06640625,Vale,"Gates of the Moon"],
+[28.844673680771795,-87.71484375,Vale,"The Eyrie"],
+[25.085598897064777,-92.197265625,Vale,"The Bloody Gate"],
+[15.623036831528264,-79.453125,Vale,"Wickendon"],
+[25.085598897064777,-67.67578124999999,Vale,"Gulltown"],
+[26.980828590472107,-61.52343749999999,Vale,"Witch Isle"],
+[27.761329874505233,-66.181640625,Vale,"Runestone"],
+[29.611670115197406,-71.982421875,Vale,"Old Anchor"],
+[33.211116472416855,-71.89453125,Vale,"Longbow Hall"],
+[38.548165423046584,-66.09375,Vale,"Champion's Hall"],
+[34.016241889667015,-83.75976562499999,Vale,"Heart's Home"],
+[37.85750715625203,-80.15625,Vale,"Snakewood"],
+[41.77131167976407,-77.431640625,Vale,"Coldwater Burn"],
+[46.37725420510028,-69.60937499999999,Vale,"The Paps"],
+[45.767522962149904,-78.134765625,Vale,"Pebble"],
+[45.02695045318546,-83.84765625,Vale,"The Fingers"],
+[47.754097979680026,-90,Vale,"Three Sisters"],
+[41.83682786072714,-88.59374999999999,Vale,"Ninestars"],
+[41.64007838467894,-94.833984375,Vale,"The Bite's Teeth"],
+[34.66935854524545,-94.130859375,Vale,"Strongsong"],
+[38.61687046392973,-85.60546875,Vale,"Newkeep"],
+[31.728167146023935,-76.904296875,Vale,"Cloudspire"],
+[28.14950321154457,-79.89257812499999,Vale,"Ironoaks"],
+[25.878994400196202,-77.6953125,Vale,"Grey Glen"],
+[24.367113562651276,-81.474609375,Vale,"Redfort"],
+[21.94304553343818,-78.046875,Vale,"Little Redfort"],
+[27.371767300523047,-83.583984375,Vale,"Hardhold"]
 
 ]
