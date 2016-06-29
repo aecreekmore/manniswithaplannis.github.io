@@ -5,6 +5,7 @@
 // Define marker icons
 // For each region add an image to 'img/marker/' 
 var SL = L.icon({iconUrl: 'img/marker/SL.png',iconSize: [32, 74]})
+var SLcapitol = L.icon({iconUrl: 'img/marker/SLcapitol.png',iconSize: [32, 74]})
 var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
 var SLtown = L.icon({iconUrl: 'img/marker/SLtown.png',iconSize: [32, 74]})
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
@@ -16,6 +17,7 @@ var Reach = L.icon({iconUrl: 'img/marker/Reach.png',iconSize: [32, 74]})
 var RL = L.icon({iconUrl: 'img/marker/RL.png',iconSize: [32, 74]})
 var TrueNorth = L.icon({iconUrl: 'img/marker/TrueNorth.png',iconSize: [32, 74]})
 var Vale = L.icon({iconUrl: 'img/marker/Vale.png',iconSize: [32, 74]})
+var Valecapitol = L.icon({iconUrl: 'img/marker/Valecapitol.png',iconSize: [32, 74]})
 var Valecity = L.icon({iconUrl: 'img/marker/Valecity.png',iconSize: [32, 74]})
 var Valetown = L.icon({iconUrl: 'img/marker/Valetown.png',iconSize: [32, 74]})
 var Valefort = L.icon({iconUrl: 'img/marker/Valefort.png',iconSize: [32, 74]})
@@ -46,7 +48,7 @@ var markers = [
 [-36.17335693522159,-78.134765625,SLtown,"Weeping Town"],
 [-35.02999636902566,-71.103515625,SL,"Greenstone"],
 [-20.961439614096825,-69.78515625,SL,"Evenfall Hall"],
-[-22.187404991398775,-78.22265625,SL,"Storm's End"],
+[-22.187404991398775,-78.22265625,SLcapitol,"Storm's End"],
 [-15.876809064146757,-74.091796875,SL,"Parchments"],
 [-12.811801316582606,-80.068359375,SL,"Haystack Hall"],
 [-17.056784609942554,-82.44140625,SL,"Bronzegate"],
@@ -58,7 +60,7 @@ var markers = [
 [-29.228890030194215,-97.646484375,SL,"Gallowsgrey"],
 //Vale
 [27.21555620902969,-88.06640625,Vale,"Gates of the Moon"],
-[28.844673680771795,-87.71484375,Vale,"The Eyrie"],
+[28.844673680771795,-87.71484375,Valecapitol,"The Eyrie"],
 [25.085598897064777,-92.197265625,Vale,"The Bloody Gate"],
 [15.623036831528264,-79.453125,Valetown,"Wickendon"],
 [25.085598897064777,-67.67578124999999,Valecity,"Gulltown"],
