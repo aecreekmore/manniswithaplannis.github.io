@@ -16,6 +16,8 @@ var Reach = L.icon({iconUrl: 'img/marker/Reach.png',iconSize: [32, 74]})
 var RL = L.icon({iconUrl: 'img/marker/RL.png',iconSize: [32, 74]})
 var TrueNorth = L.icon({iconUrl: 'img/marker/TrueNorth.png',iconSize: [32, 74]})
 var Vale = L.icon({iconUrl: 'img/marker/Vale.png',iconSize: [32, 74]})
+var Valecity = L.icon({iconUrl: 'img/marker/Valecity.png',iconSize: [32, 74]})
+var Valetown = L.icon({iconUrl: 'img/marker/Valetown.png',iconSize: [32, 74]})
 var Wall = L.icon({iconUrl: 'img/marker/Wall.png',iconSize: [32, 74]})
 var West = L.icon({iconUrl: 'img/marker/West.png',iconSize: [32, 74]})
 
@@ -57,8 +59,8 @@ var markers = [
 [27.21555620902969,-88.06640625,Vale,"Gates of the Moon"],
 [28.844673680771795,-87.71484375,Vale,"The Eyrie"],
 [25.085598897064777,-92.197265625,Vale,"The Bloody Gate"],
-[15.623036831528264,-79.453125,Vale,"Wickendon"],
-[25.085598897064777,-67.67578124999999,Vale,"Gulltown"],
+[15.623036831528264,-79.453125,Valetown,"Wickendon"],
+[25.085598897064777,-67.67578124999999,Valecity,"Gulltown"],
 [26.980828590472107,-61.52343749999999,Vale,"Witch Isle"],
 [27.761329874505233,-66.181640625,Vale,"Runestone"],
 [29.611670115197406,-71.982421875,Vale,"Old Anchor"],
@@ -70,7 +72,7 @@ var markers = [
 [46.37725420510028,-69.60937499999999,Vale,"The Paps"],
 [45.767522962149904,-78.134765625,Vale,"Pebble"],
 [45.02695045318546,-83.84765625,Vale,"The Fingers"],
-[47.754097979680026,-90,Vale,"Three Sisters"],
+[47.754097979680026,-90,Valetown,"Three Sisters"],
 [41.83682786072714,-88.59374999999999,Vale,"Ninestars"],
 [41.64007838467894,-94.833984375,Vale,"The Bite's Teeth"],
 [34.66935854524545,-94.130859375,Vale,"Strongsong"],
