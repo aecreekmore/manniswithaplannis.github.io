@@ -8,11 +8,13 @@ var SL = L.icon({iconUrl: 'img/marker/SL.png',iconSize: [32, 74]})
 var SLcapitol = L.icon({iconUrl: 'img/marker/SLcapitol.png',iconSize: [32, 74]})
 var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
 var SLtown = L.icon({iconUrl: 'img/marker/SLtown.png',iconSize: [32, 74]})
+var SLpalace = L.icon({iconUrl: 'img/marker/SLpalace.png',iconSize: [32, 74]})
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var CLcity = L.icon({iconUrl: 'img/marker/CLcity.png',iconSize: [32, 74]})
 var CLfort = L.icon({iconUrl: 'img/marker/CLfort.png',iconSize: [32, 74]})
 var CLtown = L.icon({iconUrl: 'img/marker/CLtown.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
+var DorneCapitol = L.icon({iconUrl: 'img/marker/DorneCapitol.png',iconSize: [32, 74]})
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var IItown = L.icon({iconUrl: 'img/marker/IItown.png',iconSize: [32, 74]})
 var IIcapitol = L.icon({iconUrl: 'img/marker/IIcapitol.png',iconSize: [32, 74]})
@@ -49,7 +51,7 @@ var markers = [
 [-32.76880048488168,-116.27929687499999,SL,"Nightsong"],
 [-29.228890030194215,-107.841796875,SL,"Harvest Hall"],
 [-30.524413269923986,-101.6015625,SL,"Blackhaven"],
-[-25.562265014427492,-96.328125,SL,"Summerhall"],
+[-25.562265014427492,-96.328125,SLpalace,"Summerhall"],
 [-21.37124437061831,-98.525390625,SL,"Broad Arch"],
 [-25.720735134412095,-89.912109375,SL,"Grandview"],
 [-31.503629305773018,-90.87890625,SL,"Stonehelm"],
@@ -206,7 +208,7 @@ var markers = [
 [-45.33670190996812,-88.59374999999999,Dorne,"The Tor"],
 [-46.01222384063236,-71.806640625,Dorne,"Ghost Hill"],
 [-48.80686346108517,-68.291015625,Dorne,"Spottswood"],
-[-50.736455137010644,-71.806640625,Dorne,"Sunspear"],
+[-50.736455137010644,-71.806640625,DorneCapitol,"Sunspear"],
 [-53.4357192066942,-78.75,Dorne,"Lemonwood"],
 [-49.439556958940834,-86.1328125,Dorne,"Godsgrace"],
 [-48.74894534343292,-92.10937499999999,Dorne,"Scorched Rock"],
