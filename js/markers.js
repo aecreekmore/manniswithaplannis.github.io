@@ -9,6 +9,9 @@ var SLcapitol = L.icon({iconUrl: 'img/marker/SLcapitol.png',iconSize: [32, 74]})
 var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
 var SLtown = L.icon({iconUrl: 'img/marker/SLtown.png',iconSize: [32, 74]})
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
+var CLcity = L.icon({iconUrl: 'img/marker/CLcity.png',iconSize: [32, 74]})
+var CLfort = L.icon({iconUrl: 'img/marker/CLfort.png',iconSize: [32, 74]})
+var CLtown = L.icon({iconUrl: 'img/marker/CLtown.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var North = L.icon({iconUrl: 'img/marker/North.png',iconSize: [32, 74]})
@@ -121,10 +124,10 @@ var markers = [
 //Crownlands
 [0.9667509997666425,-73.916015625,CL,"Sharp Point"],
 [-1.4061088354351468,-72.50976562499999,CL,"Stonedance"],
-[-6.839169626342808,-81.2109375,CL,"Wendwater Town"],
+[-6.839169626342808,-81.2109375,CLtown,"Wendwater Town"],
 [-10.40137755454354,-92.021484375,CL,"Kingswood Hall"],
 [7.27529233637217,-73.388671875,CL,"Dragonstone"],
-[5.266007882805511,-76.46484375,CL,"Driftmark"],
+[5.266007882805511,-76.46484375,CLtown,"Driftmark"],
 [4.477856485570586,-78.134765625,CL,"Aelinorfort"],
 [12.382928338487408,-73.740234375,CL,"Dyre Den"],
 [14.349547837185375,-68.291015625,CL,"Claw Isle"],
@@ -132,13 +135,13 @@ var markers = [
 [8.494104537551882,-82.353515625,CL,"Rook's Rest"],
 [6.751896464843375,-87.1875,CL,"Axefall"],
 [9.795677582829743,-92.548828125,CL,"Antlers"],
-[2.460181181021018,-85.60546875,CL,"Duskendale"],
+[2.460181181021018,-85.60546875,CLtown,"Duskendale"],
 [-1.9332268264771106,-86.396484375,CL,"Knight's Shore"],
 [14.774882506516272,-74.35546875,CL,"Brownhollow"],
 [2.6357885741666065,-93.955078125,CL,"Stokeworth"],
 [-0.7031073524364783,-95.361328125,CL,"Hayford"],
 [-1.5818302639606328,-91.49414062499999,CL,"Rosby"],
-[-4.915832801313164,-99.31640625,CL,"Fort Rosby"],
-[-4.8282597468669755,-94.21875,CL,"King's Landing"],
+[-4.915832801313164,-99.31640625,CLfort,"Fort Rosby"],
+[-4.8282597468669755,-94.21875,CLcity,"King's Landing"],
 
 ]
