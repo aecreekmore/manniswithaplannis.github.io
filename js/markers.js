@@ -18,6 +18,7 @@ var TrueNorth = L.icon({iconUrl: 'img/marker/TrueNorth.png',iconSize: [32, 74]})
 var Vale = L.icon({iconUrl: 'img/marker/Vale.png',iconSize: [32, 74]})
 var Valecity = L.icon({iconUrl: 'img/marker/Valecity.png',iconSize: [32, 74]})
 var Valetown = L.icon({iconUrl: 'img/marker/Valetown.png',iconSize: [32, 74]})
+var Valefort = L.icon({iconUrl: 'img/marker/Valefort.png',iconSize: [32, 74]})
 var Wall = L.icon({iconUrl: 'img/marker/Wall.png',iconSize: [32, 74]})
 var West = L.icon({iconUrl: 'img/marker/West.png',iconSize: [32, 74]})
 
@@ -74,14 +75,14 @@ var markers = [
 [45.02695045318546,-83.84765625,Vale,"The Fingers"],
 [47.754097979680026,-90,Valetown,"Three Sisters"],
 [41.83682786072714,-88.59374999999999,Vale,"Ninestars"],
-[41.64007838467894,-94.833984375,Vale,"The Bite's Teeth"],
+[41.64007838467894,-94.833984375,Valefort,"The Bite's Teeth"],
 [34.66935854524545,-94.130859375,Vale,"Strongsong"],
 [38.61687046392973,-85.60546875,Vale,"Newkeep"],
 [31.728167146023935,-76.904296875,Vale,"Cloudspire"],
 [28.14950321154457,-79.89257812499999,Vale,"Ironoaks"],
 [25.878994400196202,-77.6953125,Vale,"Grey Glen"],
 [24.367113562651276,-81.474609375,Vale,"Redfort"],
-[21.94304553343818,-78.046875,Vale,"Little Redfort"],
+[21.94304553343818,-78.046875,Valefort,"Little Redfort"],
 [27.371767300523047,-83.583984375,Vale,"Hardhold"]
 
 ]
