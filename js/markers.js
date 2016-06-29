@@ -14,6 +14,8 @@ var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var North = L.icon({iconUrl: 'img/marker/North.png',iconSize: [32, 74]})
 var NorthCity = L.icon({iconUrl: 'img/marker/NorthCity.png',iconSize: [32, 74]})
 var NorthTown = L.icon({iconUrl: 'img/marker/NorthTown.png',iconSize: [32, 74]})
+var NorthCapitol = L.icon({iconUrl: 'img/marker/NorthCapitol.png',iconSize: [32, 74]})
+var NorthFort = L.icon({iconUrl: 'img/marker/NorthFort.png',iconSize: [32, 74]})
 var NotWesteros = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var Reach = L.icon({iconUrl: 'img/marker/Reach.png',iconSize: [32, 74]})
 var RL = L.icon({iconUrl: 'img/marker/RL.png',iconSize: [32, 74]})
@@ -103,7 +105,7 @@ var markers = [
 [75.47513069090051,-70.48828125,North,"Kingshouse"],
 [74.47290269579455,-109.6875,North,"Nothern Mountains"],
 [71.60828252210263,-108.28125,North,"Highpoint"],
-[67.30597574414466,-108.984375,North,"Winterfell"],
+[67.30597574414466,-108.984375,NorthCapitol,"Winterfell"],
 [63.66576033778838,-106.25976562499999,North,"Castle Cerwyn"],
 [62.71446210149774,-123.22265625000001,North,"Tallhart Square"],
 [56.41390137600676,-119.00390625,North,"Goldgrass"],
@@ -115,6 +117,6 @@ var markers = [
 [71.32895017791999,-117.94921874999999,North,"Ironrath"],
 [73.89811065820952,-128.759765625,North,"Bear Island"],
 [47.45780853075031,-138.779296875,North,"Flint's Finger"],
-[53.69670647530323,-134.47265625,North,"Ironguard"]
+[53.69670647530323,-134.47265625,NorthFort,"Ironguard"]
 
 ]
