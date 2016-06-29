@@ -14,6 +14,8 @@ var CLfort = L.icon({iconUrl: 'img/marker/CLfort.png',iconSize: [32, 74]})
 var CLtown = L.icon({iconUrl: 'img/marker/CLtown.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
+var IItown = L.icon({iconUrl: 'img/marker/IItown.png',iconSize: [32, 74]})
+var IIcapitol = L.icon({iconUrl: 'img/marker/IIcapitol.png',iconSize: [32, 74]})
 var North = L.icon({iconUrl: 'img/marker/North.png',iconSize: [32, 74]})
 var NorthCity = L.icon({iconUrl: 'img/marker/NorthCity.png',iconSize: [32, 74]})
 var NorthTown = L.icon({iconUrl: 'img/marker/NorthTown.png',iconSize: [32, 74]})
@@ -185,8 +187,15 @@ var markers = [
 [30.90222470517144,-149.677734375,II,"Reaver's Rest"],
 [29.152161283318915,-143.7890625,II,"Pebbleton Tower"],
 [27.371767300523047,-141.943359375,II,"Iron Holt"],
-[25.878994400196202,-144.228515625,II,"Lordsport"],
+[25.878994400196202,-144.228515625,IItown,"Lordsport"],
 [26.03704188651584,-146.42578125,II,"Saltcliffe"],
 [31.203404950917395,-175.25390624999997,II,"Lonely Light"],
+[29.53522956294847,-136.7578125,II,"Skyshatter"],
+[28.92163128242129,-134.736328125,II,"Twenty Towers"],
+[30.600093873550072,-139.482421875,II,"Nettle's Scourge"],
+[26.03704188651584,-142.11914062499997,II,"Pyke"],
+[29.611670115197406,-148.271484375,IIcapitol,"Hammerhorn"],
+[28.613459424004414,-146.513671875,II,"Depth's Lamment"],
+
 
 ]
