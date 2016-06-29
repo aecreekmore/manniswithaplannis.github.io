@@ -12,6 +12,8 @@ var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
 var North = L.icon({iconUrl: 'img/marker/North.png',iconSize: [32, 74]})
+var NorthCity = L.icon({iconUrl: 'img/marker/NorthCity.png',iconSize: [32, 74]})
+var NorthTown = L.icon({iconUrl: 'img/marker/NorthTown.png',iconSize: [32, 74]})
 var NotWesteros = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var Reach = L.icon({iconUrl: 'img/marker/Reach.png',iconSize: [32, 74]})
 var RL = L.icon({iconUrl: 'img/marker/RL.png',iconSize: [32, 74]})
@@ -90,7 +92,7 @@ var markers = [
 [47.040182144806664,-112.763671875,North,"Greywater Watch"],
 [51.45400691005982,-107.40234375,North,"Moat Cailin"],
 [50.56928286558243,-94.39453125,North,"Oldcastle"],
-[56.12106042504407,-98.525390625,North,"White Harbor"],
+[56.12106042504407,-98.525390625,NorthCity,"White Harbor"],
 [58.44773280389084,-80.947265625,North,"Ramsgate"],
 [57.27904276497778,-67.8515625,North,"Widow's Watch"],
 [62.59334083012024,-94.306640625,North,"Sheepshead Hills"],
@@ -105,12 +107,14 @@ var markers = [
 [63.66576033778838,-106.25976562499999,North,"Castle Cerwyn"],
 [62.71446210149774,-123.22265625000001,North,"Tallhart Square"],
 [56.41390137600676,-119.00390625,North,"Goldgrass"],
-[57.562995459387146,-124.27734374999999,North,"Barrowton"],
+[57.562995459387146,-124.27734374999999,NorthTown,"Barrowton"],
 [59.933000423746336,-142.03125,North,"The Rills"],
 [66.58321725728175,-130.078125,North,"Bypine"],
 [71.35706654962706,-142.03125,North,"Sea Dragon Point"],
 [70.58341752317065,-124.71679687499999,North,"Deepwood Motte"],
 [71.32895017791999,-117.94921874999999,North,"Ironrath"],
-[73.89811065820952,-128.759765625,North,"Bear Island"]
+[73.89811065820952,-128.759765625,North,"Bear Island"],
+[47.45780853075031,-138.779296875,North,"Flint's Finger"],
+[53.69670647530323,-134.47265625,North,"Ironguard"]
 
 ]
