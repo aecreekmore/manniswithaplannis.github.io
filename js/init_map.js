@@ -12,7 +12,7 @@
 		  
 		/*This function gives you Lat Long of what you click on */
 		
-		function onMapClick(e) {
+		/*function onMapClick(e) {
 			if(confirm("ADD MARKER HERE=?")){
 				var mrk = prompt("Marker (SL,CL,Dorne,II,North,NotWesteros,RL,TrueNorth,Vale,Wall,West):")
 				var txt = prompt("Text")
@@ -25,7 +25,7 @@
 			}
 
 		};
-		map.on('click', onMapClick);
+		map.on('click', onMapClick);*/
 		
 
 		
