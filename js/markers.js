@@ -6,6 +6,7 @@
 // For each region add an image to 'img/marker/' 
 var SL = L.icon({iconUrl: 'img/marker/SL.png',iconSize: [32, 74]})
 var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
+var SLtown = L.icon({iconUrl: 'img/marker/SLtown.png',iconSize: [32, 74]})
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
@@ -38,7 +39,7 @@ var markers = [
 [-28.613459424004414,-71.015625,SL,"Rain House"],
 [-32.175612478499325,-73.740234375,SL,"Holywater"],
 [-33.28461996888768,-77.6953125,SL,"Mistwood"],
-[-36.10237644873644,-78.22265625,SL,"Weeping Town"],
+[-36.17335693522159,-78.134765625,SLtown,"Weeping Town"],
 [-35.02999636902566,-71.103515625,SL,"Greenstone"],
 [-20.961439614096825,-69.78515625,SL,"Evenfall Hall"],
 [-22.187404991398775,-78.22265625,SL,"Storm's End"],
