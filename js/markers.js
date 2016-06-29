@@ -5,6 +5,7 @@
 // Define marker icons
 // For each region add an image to 'img/marker/' 
 var SL = L.icon({iconUrl: 'img/marker/SL.png',iconSize: [32, 74]})
+var SLfort = L.icon({iconUrl: 'img/marker/SLfort.png',iconSize: [32, 74]})
 var CL = L.icon({iconUrl: 'img/marker/CL.png',iconSize: [32, 74]})
 var Dorne = L.icon({iconUrl: 'img/marker/Dorne.png',iconSize: [32, 74]})
 var II = L.icon({iconUrl: 'img/marker/II.png',iconSize: [32, 74]})
@@ -42,11 +43,13 @@ var markers = [
 [-20.961439614096825,-69.78515625,SL,"Evenfall Hall"],
 [-22.187404991398775,-78.22265625,SL,"Storm's End"],
 [-15.876809064146757,-74.091796875,SL,"Parchments"],
-[-11.350796722383672,-76.46484375,SL,"Durran's Grief"],
 [-12.811801316582606,-80.068359375,SL,"Haystack Hall"],
-[-12.039320557540572,-86.8359375,SL,"Forrestwatch"],
 [-17.056784609942554,-82.44140625,SL,"Bronzegate"],
 [-18.062312304546726,-92.10937499999999,SL,"Felwood"],
 [-13.838079936422462,-93.955078125,SL,"Fawnton"]
+[-33.06392419812064,-100.8984375,SLfort,"Caelen's Reach"],
+[-11.350796722383672,-76.552734375,SLfort,"Durran's Grief"],
+[-11.95334939364343,-86.923828125,SLfort,"Forrestwatch"],
+[-29.228890030194215,-97.470703125,SL,"Gallowsgrey"]
 
 ]
