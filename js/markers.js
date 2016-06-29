@@ -53,6 +53,9 @@ var WestCapitol = L.icon({iconUrl: 'img/marker/WestCapitol.png',iconSize: [32, 7
 var WestCity = L.icon({iconUrl: 'img/marker/WestCity.png',iconSize: [32, 74]})
 var WestTown = L.icon({iconUrl: 'img/marker/WestTown.png',iconSize: [32, 74]})
 
+var IbCity = L.icon({iconUrl: 'img/marker/IbCity.png',iconSize: [32, 74]})
+var IbTown = L.icon({iconUrl: 'img/marker/IbTown.png',iconSize: [32, 74]})
+
 var Essos = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var EssosFort = L.icon({iconUrl: 'img/marker/EssosFort.png',iconSize: [32, 74]})
 var EssosRuin = L.icon({iconUrl: 'img/marker/EssosRuin.png',iconSize: [32, 74]})
@@ -329,11 +332,13 @@ var markers = [
 //// Rest of Essos
 [1.3182430568620136,-28.125,EssosRuin,"Ghoyan Drohe"],
 [-7.536764322084078,-12.480468749999998,EssosRuin,"Ny Sar"],
-[60.71619779357716,144.22851495444772,EssosCity,"Port of Ibben"],
-[68.52823492039876,149.06249932944772,EssosTown,"Ib Nor"],
-[50.401515322782366,170.15624932944775,EssosTown,"Ib Saar"],
+
+[60.71619779357716,144.22851495444772,IbCity,"Port of Ibben"],
+[68.52823492039876,149.06249932944772,IbTown,"Ib Nor"],
+[50.401515322782366,170.15624932944775,IbTown,"Ib Saar"],
 [43.51668853502909,157.67578057944775,EssosRuin,"Ibbish"],
-[47.39834920035926,143.61328057944775,EssosTown,"New Ibbish"],
+[47.39834920035926,143.61328057944775,IbTown,"New Ibbish"],
+
 [33.50475906922606,54.75585870444774,EssosRuin,"Sarys"],
 [38.548165423046584,49.13085870444774,EssosCity,"Morosh"],
 [31.87755764334002,39.814452454447746,EssosCity,"Saath"],
