@@ -21,6 +21,10 @@ var NorthCapitol = L.icon({iconUrl: 'img/marker/NorthCapitol.png',iconSize: [32,
 var NorthFort = L.icon({iconUrl: 'img/marker/NorthFort.png',iconSize: [32, 74]})
 var NotWesteros = L.icon({iconUrl: 'img/marker/NotWesteros.png',iconSize: [32, 74]})
 var Reach = L.icon({iconUrl: 'img/marker/Reach.png',iconSize: [32, 74]})
+var ReachFort = L.icon({iconUrl: 'img/marker/ReachFort.png',iconSize: [32, 74]})
+var ReachTown = L.icon({iconUrl: 'img/marker/ReachTown.png',iconSize: [32, 74]})
+var ReachCity = L.icon({iconUrl: 'img/marker/ReachCity.png',iconSize: [32, 74]})
+var ReachCapitol = L.icon({iconUrl: 'img/marker/ReachCapitol.png',iconSize: [32, 74]})
 var RL = L.icon({iconUrl: 'img/marker/RL.png',iconSize: [32, 74]})
 var TrueNorth = L.icon({iconUrl: 'img/marker/TrueNorth.png',iconSize: [32, 74]})
 var Vale = L.icon({iconUrl: 'img/marker/Vale.png',iconSize: [32, 74]})
@@ -145,31 +149,31 @@ var markers = [
 [-4.8282597468669755,-94.21875,CLcity,"King's Landing"],
 //Reach
 [-4.12728532324537,-106.083984375,Reach,"Darkdell"],
-[-10.487811882056695,-105.029296875,Reach,"Tumbleton"],
+[-10.487811882056695,-105.029296875,ReachTown,"Tumbleton"],
 [-7.18810087117902,-116.630859375,Reach,"The Ring"],
-[-13.923403897723334,-110.0390625,Reach,"Bitterbridge"],
+[-13.923403897723334,-110.0390625,ReachTown,"Bitterbridge"],
 [-17.30868788677001,-109.77539062499999,Reach,"Grassfield Keep"],
 [-10.574222078332806,-124.01367187499999,Reach,"Coldmoat"],
 [-16.55196172197251,-130.341796875,Reach,"Goldengrove"],
 [-14.179186142354169,-138.69140625,Reach,"Red Lake"],
 [-18.396230138028812,-146.337890625,Reach,"Old Oak"],
 [-22.024545601240327,-137.197265625,Reach,"Appleton"],
-[-25.085598897064763,-141.064453125,Reach,"Shield Islands"],
+[-25.085598897064763,-141.064453125,ReachTown,"Shield Islands"],
 [-25.48295117535531,-134.208984375,Reach,"New Barrel"],
 [-20.550508894195637,-116.27929687499999,Reach,"Longtable"],
-[-27.059125784374054,-113.5546875,Reach,"Ashford"],
+[-27.059125784374054,-113.5546875,ReachTown,"Ashford"],
 [-24.206889622398023,-120.84960937499999,Reach,"Cider Hall"],
-[-29.228890030194215,-130.078125,Reach,"Highgarden"],
+[-29.228890030194215,-130.078125,ReachCapitol,"Highgarden"],
 [-32.175612478499325,-124.01367187499999,Reach,"Starpike"],
 [-36.38591277287651,-130.166015625,Reach,"Horn Hill"],
 [-33.65120829920497,-148.88671874999997,Reach,"Bandallon"],
 [-34.74161249883172,-140.361328125,Reach,"Brightwater Keep"],
 [-38.06539235133248,-140.9765625,Reach,"Honeyholt"],
 [-40.78054143186031,-138.427734375,Reach,"Uplands"],
-[-41.771311679764054,-143.7890625,Reach,"Oldtown"],
+[-41.771311679764054,-143.7890625,ReachCity,"Oldtown"],
 [-51.39920565355377,-142.646484375,Reach,"Sunhouse"],
 [-43.771093817756494,-148.798828125,Reach,"Blackcrown"],
-[-51.67255514839674,-150.556640625,Reach,"The Arbor"],
+[-51.67255514839674,-150.556640625,ReachTown,"The Arbor"],
 [-45.89000815866183,-148.18359375,Reach,"Three Towers"],
 
 ]
